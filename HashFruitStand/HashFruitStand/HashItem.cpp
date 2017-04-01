@@ -11,7 +11,8 @@ HashItem::HashItem(int key, string description)
 }
 HashItem::HashItem()
 {
-
+	Key = -1;
+	Description = "";
 }
 
 

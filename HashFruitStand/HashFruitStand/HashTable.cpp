@@ -51,7 +51,8 @@ bool HashTable::Insert(int key, HashItem data)
 				}
 				else
 				{
-					Table[newIndex] = data;
+					Table[newIndex].Key = data.Key;
+					Table[newIndex].Description = data.Description;
 				}
 			}
 		}
